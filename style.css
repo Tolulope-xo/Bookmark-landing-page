@@ -174,7 +174,6 @@ nav li :active {
     .cards {
         display: block !important;
         margin: auto !important;
-        overflow: hidden !important;
     }
 
     .card-1,
@@ -239,6 +238,10 @@ nav li :active {
         margin-bottom: 1rem !important;
     }
 
+    .list a {
+        font-weight: 100 !important;
+    }
+
 
     .log {
         position: relative;
@@ -247,8 +250,9 @@ nav li :active {
     }
 
     .picx {
-        position: absolute;
-        right: 33vw !important;
+        position: absolute !important;
+        right: 38vw !important;
+        margin-top: 1rem !important;
     }
 }
 
