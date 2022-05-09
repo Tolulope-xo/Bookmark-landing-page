@@ -1,0 +1,814 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(./assets/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(./assets/Rubik-Medium.ttf);
+}
+
+.button_1 :active {
+    background-color: white;
+}
+
+nav li :active {
+    border-bottom: 2px solid hsl(0, 94%, 66%);
+}
+
+.chrome :active {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+
+.fox :active {
+    background-color: white;
+    color: hsl(229, 8%, 60%);
+}
+
+.icon1 {
+    display: none;
+}
+
+@media only screen and (max-width: 420px) {
+    nav ul {
+        display: none !important;
+    }
+
+    .icon1 {
+        display: block !important;
+        position: relative !important;
+        left: 10vw !important;
+    }
+
+    .hero {
+        display: block !important;
+        margin: 0 !important;
+        height: 100vh !important;
+    }
+
+    .container1-hero,
+    .container2-hero-main {
+        font-size: 15px !important;
+        position: relative !important;
+    }
+
+    .container1-hero {
+        top: 20rem !important;
+        width: 90vw !important;
+        margin: auto !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .container2-hero img {
+        position: absolute !important;
+        left: 0vw !important;
+        top: 15vh !important;
+        width: 100% !important;
+    }
+
+    .container1-hero h2,
+    .container2-hero-main h3 {
+        font-size: 35px !important;
+    }
+
+    .container2-btn {
+        position: relative !important;
+    }
+
+    .container2-hero-main {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .container2-hero-main h2 {
+        width: 80vw !important;
+        font-size: 25px !important;
+        margin-top: 4rem !important;
+    }
+
+    .shape {
+        width: 100% !important;
+        height: 13rem !important;
+        left: 12% !important;
+        top: 22% !important;
+    }
+
+    .headings {
+        display: block !important;
+        margin: auto !important;
+        width: 50vw !important;
+    }
+
+    .headings p {
+        border-bottom: 2px solid hsl(0, 94%, 66%) !important;
+        text-align: center !important;
+    }
+
+
+    .boxing {
+        margin: 1rem auto 2rem auto !important;
+        display: block !important;
+        width: 100vw !important;
+        height: 550px !important;
+        justify-content: left !important;
+        position: inherit !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .img-second {
+        width: 19rem !important;
+    }
+
+    .sphere {
+        width: 19rem !important;
+        height: 13rem !important;
+        left: 0vw !important;
+        top: 2rem !important;
+    }
+
+    .field {
+        margin: 5rem auto !important;
+        width: 90vw !important;
+    }
+
+
+    .field h3 {
+        font-size: 30px !important;
+    }
+
+
+
+    .cards {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        margin: 1rem auto !important;
+    }
+
+    .info {
+        margin: 2rem auto !important;
+        left: 30vw !important;
+
+    }
+
+    .FAQ {
+        max-width: 80vw !important;
+    }
+
+    .FAQ-container h3 {
+        font-size: 18px !important;
+    }
+
+    .email_container {
+        height: 20rem !important;
+    }
+
+    .email_container h3 {
+        font-size: 25px !important;
+        width: 20rem !important;
+        margin: auto !important;
+    }
+
+    form input {
+        width: 18rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .contact {
+        width: 18rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 7rem !important;
+    }
+
+    .Footer {
+        height: 20rem !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .list {
+        margin-top: 5rem !important;
+        display: block !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .list li {
+        margin-bottom: 1rem !important;
+    }
+
+
+    .log {
+        position: relative;
+        top: -5rem !important;
+        left: -8rem !important;
+    }
+
+    .picx {
+        position: absolute;
+        right: 33vw !important;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 1024px) {
+
+
+
+    .boxing,
+    .hero {
+        margin: 1rem auto 2rem auto !important;
+        display: flex !important;
+        width: 90vw !important;
+        height: 300px !important;
+        position: inherit !important;
+    }
+
+   
+
+    .container2-btn {
+        position: relative !important;
+    }
+
+    .container1-hero,
+    .container2-hero-main {
+        padding-left: 2rem !important;
+    }
+
+    .hero {
+        width: 100vw !important;
+
+    }
+
+    .container2-hero img,
+    .img-second {
+        width: 19rem !important;
+    }
+
+    .container1-hero h2 {
+        width: 20rem !important;
+        font-size: 35px !important;
+    }
+
+    .shape {
+        width: 19rem !important;
+        height: 13rem !important;
+        left: 65vw !important;
+        top: 10rem !important;
+    }
+
+    .sphere {
+        width: 19rem !important;
+        height: 13rem !important;
+        left: 0vw !important;
+        top: 2rem !important;
+    }
+
+    .field {
+        margin: 5rem auto !important;
+        width: 90vw !important;
+    }
+
+
+    .field h3 {
+        font-size: 30px !important;
+    }
+
+
+
+    .cards {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        margin: 1rem auto !important;
+    }
+
+    .info {
+        margin: 2rem auto !important;
+        left: 37vw !important;
+
+    }
+
+    .FAQ {
+        max-width: 80vw !important;
+    }
+
+    .FAQ-container h3 {
+        font-size: 18px !important;
+    }
+
+    .email_container {
+        height: 20rem !important;
+    }
+
+    .email_container h3 {
+        font-size: 25px !important;
+        width: 20rem !important;
+        margin: auto !important;
+    }
+
+    form input {
+        width: 18rem !important;
+        margin-top: 1rem !important;
+    }
+
+
+    .Footer {
+        height: 20rem !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .list {
+        margin-top: 5rem !important;
+        display: block !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .list li {
+        margin-bottom: 1rem !important;
+    }
+
+
+    .log {
+        position: relative;
+        top: -5rem !important;
+        left: -8rem !important;
+    }
+
+    .picx {
+        position: absolute;
+        right: 40vw !important;
+    }
+}
+
+nav {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-family: Regular;
+    color: black;
+    z-index: -1;
+}
+
+.icon1 {
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .foot {
+    display: none;
+}
+
+ul {
+    align-items: center !important;
+    display: flex !important;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button_1 {
+    width: 5rem;
+    height: 2rem;
+    font-size: 18px;
+    font-family: Regular;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid hsl(0, 94%, 66%);
+}
+
+.hero,
+.boxing {
+    display: flex;
+    align-items: center;
+    margin: auto 12rem;
+
+}
+
+
+.container1-hero,
+.container2-hero-main {
+    font-size: 18px;
+    font-family: Regular;
+}
+
+.container1-hero h2,
+.container2-hero-main h3 {
+    font-size: 40px;
+    color: hsl(229, 31%, 21%);
+    font-family: Regular;
+}
+
+.container1-hero p,
+.container2-hero-main p {
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    font-family: Regular;
+}
+
+.chrome,
+.fox,
+.container2-hero-main button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Regular;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.chrome,
+.container2-hero-main button {
+    background-color: hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+}
+
+.fox {
+    background-color: hsl(229, 8%, 60%);
+    border: 1px solid hsl(229, 8%, 60%);
+}
+
+.container2-hero {
+    width: 100%;
+}
+
+
+.shape,
+.sphere {
+    border: 1px solid hsl(231, 69%, 60%);
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 20rem 0 0 20rem;
+    width: 25rem;
+    height: 20rem;
+    z-index: -1;
+    position: absolute;
+    right: 10rem;
+    top: 8rem;
+}
+
+.container2-btn {
+    position: relative;
+}
+
+.container2-hero-main {
+    width: 20rem;
+    margin: auto;
+}
+
+.container2-hero img {
+    width: 100%;
+}
+
+.headings {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.headings p:active{
+    border-bottom: 4px solid hsl(0, 94%, 66%);
+}
+.headings p {
+    width: 200px;
+    font-family: Regular;
+    font-size: 18px;
+    height: 20px;
+    cursor: pointer;
+    border: 0px solid transparent;
+    justify-content: space-around;
+    color: hsl(229, 8%, 60%);
+    background-color: transparent;
+}
+
+.boxing {
+    width: 900px;
+    height: 400px;
+    justify-content: space-around;
+    position: relative;
+    left: 10rem;
+    display: none;
+}
+
+.boxing.active{
+    display: flex;
+    align-items: center;
+    margin: auto 12rem;
+}
+.img-second {
+    width: 20rem;
+}
+
+.sphere {
+    border-radius: 0rem 20rem 20rem 0;
+    width: 25rem;
+    height: 15rem;
+    left: -130px;
+    right: 20rem;
+    top: 3rem;
+}
+
+.field {
+    margin: 5rem auto;
+    width: 35rem;
+    text-align: center;
+}
+
+
+.field h3 {
+    font-size: 35px;
+    font-family: Regular;
+}
+
+.field p {
+    font-size: 18px;
+    font-family: Regular;
+    color: hsl(229, 8%, 60%);
+}
+
+.cards {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    height: 20rem;
+    width: 15rem;
+    border: 1px solid transparent;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 2rem;
+    padding: 10px;
+    position: relative;
+}
+
+.image {
+    padding-top: 20px;
+}
+
+.head {
+    font-size: 20px;
+    font-family: Regular;
+    line-height: 30px;
+}
+
+.version {
+    color: hsl(229, 8%, 60%);
+    font-family: Regular;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.dot {
+    height: 3px;
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+}
+
+.install {
+    width: 14rem;
+    height: 3rem;
+    background-color: hsl(231, 69%, 60%);
+    border: 1px solid hsl(231, 69%, 60%);
+    border-radius: 5px;
+    color: white;
+    font-family: Regular;
+    font-size: 15px;
+    position: absolute;
+    left: 0.5rem;
+    top: 16rem;
+}
+
+.card-2 {
+    top: 1rem;
+}
+
+.card-3 {
+    top: 2rem;
+}
+
+.FAQ {
+    font-family: Regular;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.FAQ .FAQ-container {
+    box-shadow: 3px -1px 5px -1px lightgray;
+}
+
+.FAQ-container h3 {
+    padding: 10px 32px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.FAQ-container .faq-page {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    color: black;
+    position: relative;
+    transition: 1000ms;
+}
+
+.FAQ-container img {
+    position: absolute;
+    right: 0;
+    padding: 0 32px;
+    cursor: pointer;
+    transform: translate(-8px);
+    opacity: 0;
+    transition: all 1500ms;
+}
+
+.FAQ-container img.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.FAQ-answer {
+    padding: 0 32px;
+    color: hsl(229, 8%, 60%);
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    font-family: Regular;
+}
+
+
+.FAQ-container .FAQ-answer.active {
+    max-height: 600px;
+}
+
+
+.info {
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    font-size: 18px;
+    font-family: Regular;
+    margin: 2rem auto;
+    position: relative;
+    left: 35rem;
+}
+
+.email_container {
+    background-color: hsl(231, 69%, 60%);
+    height: 18rem;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.email_container h4 {
+    font-size: 13px;
+    line-height: 80px;
+    font-family: Regular;
+    /* margin-top: 3rem; */
+    font-weight: 200;
+}
+
+.email_container h3 {
+    font-size: 30px;
+    font-family: Regular;
+    width: 25rem;
+    margin: 1rem auto;
+}
+
+form {
+    display: inline;
+}
+
+form input {
+    border: 1px solid transparent;
+    border-radius: 7px;
+    width: 15rem;
+    height: 3rem;
+    font-family: Regular;
+    font-size: 15px;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    font-family: Regular;
+    font-size: 15px;
+}
+
+.contact {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 7rem;
+    height: 3rem;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    font-family: Regular;
+    font-size: 15px;
+}
+
+.Footer {
+    background-color: hsl(229, 31%, 21%);
+    height: 4rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-family: Regular;
+    color: black;
+}
+
+.list {
+    color: white;
+    align-items: center;
+}
+
+.navbar ul {
+    padding-top: 1rem;
+
+}
+
+.list a {
+    color: white;
+
+}
+
+.log {
+    position: relative;
+    top: -2rem;
+    left: -30rem;
+}
+
+.log p {
+    display: inline-flex;
+    color: white;
+    width: 7rem;
+    height: 1.5rem;
+    background-color: hsl(229, 31%, 21%);
+    position: absolute;
+    left: 9rem;
+    top: 1rem;
+    font-size: 17px;
+}
+
+.log svg {
+    position: absolute;
+    left: 7rem;
+    top: 1rem;
+}
+
+.picx {
+    display: flex;
+    position: absolute;
+    right: 5rem;
+}
