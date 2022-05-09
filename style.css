@@ -38,9 +38,6 @@ nav li :active {
 }
 
 @media only screen and (max-width: 420px) {
-    * {
-        overflow: hidden !important;
-    }
 
     nav ul {
         display: none !important;
@@ -54,8 +51,13 @@ nav li :active {
 
     .hero {
         display: block !important;
-        margin: 0 !important;
-        height: fit-content !important;
+        margin: auto !important;
+        height: 80vh !important;
+    }
+
+    .container2-hero {
+        overflow: hidden !important;
+        width: 100% !important;
     }
 
     .container1-hero,
@@ -75,7 +77,6 @@ nav li :active {
 
     .container2-hero img {
         position: absolute !important;
-        left: 0vw !important;
         top: 15vh !important;
         width: 100% !important;
     }
@@ -101,7 +102,7 @@ nav li :active {
     }
 
     .shape {
-        width: 22rem !important;
+        width: 82vw !important;
         height: 13rem !important;
         left: 12% !important;
         top: 22% !important;
@@ -128,7 +129,7 @@ nav li :active {
         position: inherit !important;
         align-items: center !important;
         text-align: center !important;
-        display: none;
+        display: none !important;
     }
 
     .boxing.active {
@@ -147,6 +148,10 @@ nav li :active {
         top: 2rem !important;
     }
 
+    .box-1 {
+        overflow: hidden !important;
+    }
+
     .field {
         margin: 5rem auto !important;
         width: 90vw !important;
@@ -162,6 +167,7 @@ nav li :active {
     .cards {
         display: block !important;
         margin: auto !important;
+        overflow: hidden !important;
     }
 
     .card-1,
@@ -186,6 +192,7 @@ nav li :active {
 
     .email_container {
         height: 20rem !important;
+        overflow: hidden !important;
     }
 
     .email_container h3 {
@@ -251,8 +258,13 @@ nav li :active {
         position: inherit !important;
     }
 
-
-
+    .boxing{
+        display: none !important;
+    }
+.boxing.active {
+    display: flex !important;
+    margin: auto !important;
+}
     .container2-btn {
         position: relative !important;
     }
