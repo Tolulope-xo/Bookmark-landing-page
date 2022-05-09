@@ -37,6 +37,11 @@ nav li :active {
     display: none;
 }
 
+/* .headings>p:after :active {
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+    padding-bottom: 34px;
+} */
+
 @media only screen and (max-width: 420px) {
 
     nav ul {
@@ -112,11 +117,13 @@ nav li :active {
         display: block !important;
         margin: auto !important;
         width: 50vw !important;
+        margin-bottom: 2rem !important;
     }
 
     .headings p {
-        border-bottom: 2px solid hsl(0, 94%, 66%) !important;
+        /* border-bottom: 2px solid hsl(0, 94%, 66%) !important; */
         text-align: center !important;
+        padding: 1rem 0 !important;
     }
 
 
@@ -258,13 +265,15 @@ nav li :active {
         position: inherit !important;
     }
 
-    .boxing{
+    .boxing {
         display: none !important;
     }
-.boxing.active {
-    display: flex !important;
-    margin: auto !important;
-}
+
+    .boxing.active {
+        display: flex !important;
+        margin: auto !important;
+    }
+
     .container2-btn {
         position: relative !important;
     }
@@ -528,10 +537,6 @@ a {
     width: fit-content;
 }
 
-.headings p:active {
-    border-bottom: 4px solid hsl(0, 94%, 66%);
-}
-
 .headings p {
     width: 200px;
     font-family: Regular;
@@ -543,6 +548,17 @@ a {
     color: hsl(229, 8%, 60%);
     background-color: transparent;
 }
+
+.headings p:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    border: 2px solid hsl(229, 8%, 60%);
+    margin-top: 1px;
+}
+
+
 
 .boxing {
     width: 900px;
@@ -836,4 +852,8 @@ input::placeholder {
     display: flex;
     position: absolute;
     right: 5rem;
+}
+
+.picx li {
+    margin-right: 5px;
 }
