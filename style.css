@@ -137,6 +137,7 @@ nav li :active {
         align-items: center !important;
         text-align: center !important;
         display: none !important;
+        overflow: hidden !important;
     }
 
     .boxing.active {
@@ -257,14 +258,18 @@ nav li :active {
 }
 
 @media (min-width: 421px) and (max-width: 1024px) {
-
-
-
-    .boxing,
-    .hero {
+    .boxing{
         margin: 1rem auto 2rem auto !important;
         display: flex !important;
         width: 90vw !important;
+        height: 300px !important;
+        position: inherit !important;
+    }
+
+    
+    .hero {
+        margin: 1rem auto 2rem auto !important;
+        display: flex !important;
         height: 300px !important;
         position: inherit !important;
     }
@@ -285,11 +290,11 @@ nav li :active {
     .container1-hero,
     .container2-hero-main {
         padding-left: 2rem !important;
+        width: 100vw !important;
     }
 
     .hero {
         width: 100vw !important;
-
     }
 
     .container2-hero img,
@@ -303,16 +308,16 @@ nav li :active {
     }
 
     .shape {
-        width: 19rem !important;
+        width: 35vw !important;
         height: 13rem !important;
-        left: 65vw !important;
+        left: 60vw !important;
         top: 10rem !important;
     }
 
     .sphere {
-        width: 19rem !important;
+        width: 38vw !important;
         height: 13rem !important;
-        left: 0vw !important;
+        left: -4vw !important;
         top: 2rem !important;
     }
 
@@ -342,7 +347,6 @@ nav li :active {
     .info {
         margin: 2rem auto !important;
         left: 37vw !important;
-
     }
 
     .FAQ {
@@ -368,38 +372,12 @@ nav li :active {
         margin-top: 1rem !important;
     }
 
-
-    .Footer {
-        height: 20rem !important;
-    }
-
-    .navbar {
-        width: 100% !important;
-    }
-
-    .list {
-        margin-top: 5rem !important;
-        display: block !important;
-        text-align: center !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .list li {
-        margin-bottom: 1rem !important;
-    }
-
-
     .log {
-        position: relative;
-        top: -5rem !important;
-        left: -8rem !important;
+        position: relative !important;
+        top: -25px !important;
+        left: -15rem !important;
     }
-
-    .picx {
-        position: absolute;
-        right: 40vw !important;
-    }
+    
 }
 
 nav {
@@ -830,7 +808,7 @@ input::placeholder {
 
 .log {
     position: relative;
-    top: -2rem;
+    top: -25px;
     left: -30rem;
 }
 
