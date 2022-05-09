@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 @font-face {
@@ -50,7 +51,7 @@ nav li :active {
     .hero {
         display: block !important;
         margin: 0 !important;
-        height: 100vh !important;
+        height: fit-content !important;
     }
 
     .container1-hero,
@@ -123,6 +124,13 @@ nav li :active {
         position: inherit !important;
         align-items: center !important;
         text-align: center !important;
+        display: none !important;
+    }
+    
+    .boxing.active{
+        display: block !important;
+        align-items: center !important;
+        margin: auto 12rem !important;
     }
 
     .img-second {
