@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
 }
 
 @font-face {
@@ -15,383 +14,29 @@
     src: url(./assets/Rubik-Medium.ttf);
 }
 
-.button_1 :active {
-    background-color: white;
-}
-
-nav li :active {
-    border-bottom: 2px solid hsl(0, 94%, 66%);
-}
-
-.chrome :active {
-    background-color: white;
-    color: hsl(231, 69%, 60%);
-}
-
-.fox :active {
-    background-color: white;
-    color: hsl(229, 8%, 60%);
-}
-
-.icon1 {
-    display: none;
-}
-
-/* .headings>p:after :active {
-    border-bottom: 3px solid hsl(0, 94%, 66%);
-    padding-bottom: 34px;
-} */
-
-@media only screen and (max-width: 420px) {
-
-    nav ul {
-        display: none !important;
-    }
-
-    .icon1 {
-        display: block !important;
-        position: relative !important;
-        left: 10vw !important;
-    }
-
-    .hero {
-        display: block !important;
-        margin: auto !important;
-        height: 80vh !important;
-    }
-
-    .container2-hero {
-        overflow: hidden !important;
-        width: 100% !important;
-    }
-
-    .container1-hero,
-    .container2-hero-main {
-        font-size: 15px !important;
-        position: relative !important;
-    }
-
-    .container1-hero {
-        top: 20rem !important;
-        width: 90vw !important;
-        margin: auto !important;
-        align-items: center !important;
-        justify-content: center !important;
-        text-align: center !important;
-    }
-
-    .container2-hero img {
-        position: absolute !important;
-        top: 15vh !important;
-        width: 100% !important;
-    }
-
-    .container1-hero h2,
-    .container2-hero-main h3 {
-        font-size: 35px !important;
-    }
-
-    .container2-btn {
-        position: relative !important;
-    }
-
-    .container2-hero-main {
-        justify-content: center !important;
-        text-align: center !important;
-    }
-
-    .container2-hero-main h2 {
-        width: 80vw !important;
-        font-size: 25px !important;
-        margin-top: 4rem !important;
-    }
-
-    .shape {
-        width: 82vw !important;
-        height: 13rem !important;
-        left: 12% !important;
-        top: 22% !important;
-    }
-
-    .headings {
-        display: block !important;
-        margin: auto !important;
-        width: 50vw !important;
-        margin-bottom: 2rem !important;
-    }
-
-    .headings p {
-        /* border-bottom: 2px solid hsl(0, 94%, 66%) !important; */
-        text-align: center !important;
-        padding: 1rem 0 !important;
-    }
-
-
-    .boxing {
-        margin: 1rem auto 2rem auto !important;
-        display: block !important;
-        width: 100vw !important;
-        height: 550px !important;
-        justify-content: left !important;
-        position: inherit !important;
-        align-items: center !important;
-        text-align: center !important;
-        display: none !important;
-        overflow: hidden !important;
-    }
-
-    .boxing.active {
-        display: block !important;
-        margin: auto !important;
-    }
-
-    .img-second {
-        width: 19rem !important;
-    }
-
-    .sphere {
-        width: 19rem !important;
-        height: 13rem !important;
-        left: 0vw !important;
-        top: 2rem !important;
-    }
-
-    .box-1 {
-        overflow: hidden !important;
-    }
-
-    .field {
-        margin: 5rem auto !important;
-        width: 90vw !important;
-    }
-
-
-    .field h3 {
-        font-size: 30px !important;
-    }
-
-
-
-    .cards {
-        display: block !important;
-        margin: auto !important;
-    }
-
-    .card-1,
-    .card-2,
-    .card-3 {
-        margin: 1rem auto !important;
-    }
-
-    .info {
-        margin: 2rem auto !important;
-        left: 30vw !important;
-
-    }
-
-    .FAQ {
-        max-width: 80vw !important;
-    }
-
-    .FAQ-container h3 {
-        font-size: 18px !important;
-    }
-
-    .email_container {
-        height: 20rem !important;
-        overflow: hidden !important;
-    }
-
-    .email_container h3 {
-        font-size: 25px !important;
-        width: 20rem !important;
-        margin: auto !important;
-    }
-
-    form input {
-        width: 18rem !important;
-        margin-top: 1rem !important;
-    }
-
-    .contact {
-        width: 18rem !important;
-        margin-top: 1rem !important;
-        margin-bottom: 7rem !important;
-    }
-
-    .Footer {
-        height: 20rem !important;
-    }
-
-    .navbar {
-        width: 100% !important;
-    }
-
-    .list {
-        margin-top: 5rem !important;
-        display: block !important;
-        text-align: center !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .list li {
-        margin-bottom: 1rem !important;
-    }
-
-    .list a {
-        font-weight: 100 !important;
-    }
-
-
-    .log {
-        position: relative;
-        top: -5rem !important;
-        left: -8rem !important;
-    }
-
-    .picx {
-        position: absolute !important;
-        right: 38vw !important;
-        margin-top: 1rem !important;
-    }
-}
-
-@media (min-width: 421px) and (max-width: 1024px) {
-    .boxing{
-        margin: 1rem auto 2rem auto !important;
-        display: flex !important;
-        width: 90vw !important;
-        height: 300px !important;
-        position: inherit !important;
-    }
-
-    
-    .hero {
-        margin: 1rem auto 2rem auto !important;
-        display: flex !important;
-        height: 300px !important;
-        position: inherit !important;
-    }
-
-    .boxing {
-        display: none !important;
-    }
-
-    .boxing.active {
-        display: flex !important;
-        margin: auto !important;
-    }
-
-    .container2-btn {
-        position: relative !important;
-    }
-
-    .container1-hero,
-    .container2-hero-main {
-        padding-left: 2rem !important;
-        width: 100vw !important;
-    }
-
-    .hero {
-        width: 100vw !important;
-    }
-
-    .container2-hero img,
-    .img-second {
-        width: 19rem !important;
-    }
-
-    .container1-hero h2 {
-        width: 20rem !important;
-        font-size: 35px !important;
-    }
-
-    .shape {
-        width: 35vw !important;
-        height: 13rem !important;
-        left: 60vw !important;
-        top: 10rem !important;
-    }
-
-    .sphere {
-        width: 38vw !important;
-        height: 13rem !important;
-        left: -4vw !important;
-        top: 2rem !important;
-    }
-
-    .field {
-        margin: 5rem auto !important;
-        width: 90vw !important;
-    }
-
-
-    .field h3 {
-        font-size: 30px !important;
-    }
-
-
-
-    .cards {
-        display: block !important;
-        margin: auto !important;
-    }
-
-    .card-1,
-    .card-2,
-    .card-3 {
-        margin: 1rem auto !important;
-    }
-
-    .info {
-        margin: 2rem auto !important;
-        left: 37vw !important;
-    }
-
-    .FAQ {
-        max-width: 80vw !important;
-    }
-
-    .FAQ-container h3 {
-        font-size: 18px !important;
-    }
-
-    .email_container {
-        height: 20rem !important;
-    }
-
-    .email_container h3 {
-        font-size: 25px !important;
-        width: 20rem !important;
-        margin: auto !important;
-    }
-
-    form input {
-        width: 18rem !important;
-        margin-top: 1rem !important;
-    }
-
-    .log {
-        position: relative !important;
-        top: -25px !important;
-        left: -15rem !important;
-    }
-    
-}
-
 nav {
-    height: 5rem;
+    height: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 18px;
     font-family: Regular;
-    color: black;
-    z-index: -1;
+}
+
+.svg1 {
+    margin-top: 2rem;
+}
+
+.svg2 {
+    display: none;
+}
+
+.foot1 {
+    display: none;
 }
 
 .icon1 {
+    display: none;
     align-items: center;
     cursor: pointer;
 }
@@ -401,8 +46,8 @@ nav .foot {
 }
 
 ul {
-    align-items: center !important;
-    display: flex !important;
+    align-items: center;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -410,10 +55,15 @@ li {
     list-style: none;
     justify-content: space-around;
     margin: 0 1rem;
+    color: black;
 }
 
 a {
     text-decoration: none;
+}
+
+.pic-one {
+    display: none !important;
 }
 
 .button_1 {
@@ -428,14 +78,11 @@ a {
     border: 1px solid hsl(0, 94%, 66%);
 }
 
-.hero,
-.boxing {
+.hero {
     display: flex;
     align-items: center;
     margin: auto 12rem;
-
 }
-
 
 .container1-hero,
 .container2-hero-main {
@@ -492,11 +139,11 @@ a {
     border: 1px solid hsl(231, 69%, 60%);
     background-color: hsl(231, 69%, 60%);
     border-radius: 20rem 0 0 20rem;
-    width: 25rem;
-    height: 20rem;
+    width: 30rem;
+    height: 17rem;
     z-index: -1;
     position: absolute;
-    right: 10rem;
+    right: 0rem;
     top: 8rem;
 }
 
@@ -504,8 +151,16 @@ a {
     position: relative;
 }
 
+.svg3 {
+    display: none;
+}
+
+.svg2 {
+    display: none;
+}
+
 .container2-hero-main {
-    width: 20rem;
+    width: 25rem;
     margin: auto;
 }
 
@@ -540,8 +195,6 @@ a {
     margin-top: 1px;
 }
 
-
-
 .boxing {
     width: 900px;
     height: 400px;
@@ -549,7 +202,10 @@ a {
     position: relative;
     left: 10rem;
     display: none;
+    align-items: center;
+    margin: auto 12rem;
 }
+
 
 .boxing.active {
     display: flex;
@@ -563,10 +219,9 @@ a {
 
 .sphere {
     border-radius: 0rem 20rem 20rem 0;
-    width: 25rem;
+    width: 37rem;
     height: 15rem;
-    left: -130px;
-    right: 20rem;
+    right: 5rem;
     top: 3rem;
 }
 
@@ -838,4 +493,436 @@ input::placeholder {
 
 .picx li {
     margin-right: 5px;
+}
+
+@media only screen and (max-width: 420px) {
+    nav {
+        z-index: 1000;
+        padding-top: 1rem;
+        display: block;
+        left: 0;
+        /* background: hsl(229, 31%, 21%); */
+        position: absolute;
+        width: 100%;
+    }
+
+    .pic {
+        display: inline-flex;
+        margin-top: 50vh;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .pic li {
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+
+    .svg1 {
+        display: block;
+        margin-top: 0rem;
+        margin-left: 10px;
+    }
+
+    .svg2 {
+        display: none !important;
+    }
+
+    .svg2 {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .button_1 {
+        width: 100%;
+        height: 3rem;
+        padding: 8px 10px;
+        border: 2px solid white;
+        background-color: transparent;
+    }
+
+    nav ul {
+        position: absolute;
+        display: block;
+        text-align: center;
+        height: 100vh;
+        background-color: hsl(229, 31%, 21%);
+        width: 100%;
+    }
+
+    nav ul li {
+        font-size: 23px;
+        font-weight: lighter;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav .menu.active {
+        display: block;
+    }
+
+    nav li {
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .icon1 {
+        display: block;
+        position: absolute;
+        right: 10px;
+        padding: 0 10px;
+    }
+
+    .icon2 {
+        display: none;
+        position: absolute;
+        right: 10px;
+        padding: 0 10px;
+    }
+
+    .icon2 .active {
+        display: block;
+    }
+
+    .foot1 {
+        display: block;
+    }
+
+    .hero {
+        display: block !important;
+        margin: auto !important;
+        height: 80vh !important;
+    }
+
+    .container2-hero {
+        overflow: hidden !important;
+        width: 100% !important;
+    }
+
+    .container1-hero,
+    .container2-hero-main {
+        font-size: 15px !important;
+        position: relative !important;
+    }
+
+    .container1-hero {
+        top: 20rem !important;
+        width: 90vw !important;
+        margin: auto !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .container2-hero img {
+        position: absolute !important;
+        top: 10vh !important;
+        width: 100% !important;
+    }
+
+    .container1-hero h2,
+    .container2-hero-main h3 {
+        font-size: 35px !important;
+    }
+
+    .container2-btn {
+        position: relative !important;
+    }
+
+    .container2-hero-main {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .container2-hero-main h2 {
+        width: 80vw !important;
+        font-size: 25px !important;
+        margin-top: 4rem !important;
+    }
+
+    .shape {
+        width: 82vw !important;
+        height: 13rem !important;
+        left: 12% !important;
+        top: 15% !important;
+    }
+
+    .headings {
+        display: block !important;
+        margin: auto !important;
+        width: 50vw !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .headings p {
+        text-align: center !important;
+        padding: 1rem 0 !important;
+    }
+
+
+    .boxing {
+        margin: 1rem auto 2rem auto !important;
+        display: block !important;
+        width: 100vw !important;
+        height: 550px !important;
+        justify-content: left !important;
+        position: inherit !important;
+        align-items: center !important;
+        text-align: center !important;
+        display: none !important;
+        overflow: hidden !important;
+    }
+
+    .boxing.active {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .img-second {
+        width: 19rem !important;
+    }
+
+    .sphere {
+        width: 19rem !important;
+        height: 13rem !important;
+        left: 0vw !important;
+        top: 2rem !important;
+    }
+
+    .box-1 {
+        overflow: hidden !important;
+    }
+
+    .field {
+        margin: 5rem auto !important;
+        width: 90vw !important;
+    }
+
+
+    .field h3 {
+        font-size: 30px !important;
+    }
+
+
+
+    .cards {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        margin: 1rem auto !important;
+    }
+
+    .info {
+        margin: 2rem auto !important;
+        left: 30vw !important;
+
+    }
+
+    .FAQ {
+        max-width: 80vw !important;
+    }
+
+    .FAQ-container h3 {
+        font-size: 18px !important;
+    }
+
+    .email_container {
+        height: 20rem !important;
+        overflow: hidden !important;
+    }
+
+    .email_container h3 {
+        font-size: 25px !important;
+        width: 20rem !important;
+        margin: auto !important;
+    }
+
+    form input {
+        width: 18rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .contact {
+        width: 18rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 7rem !important;
+    }
+
+    .Footer {
+        height: 20rem !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .list {
+        margin-top: 5rem !important;
+        display: block !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .list li {
+        margin-bottom: 1rem !important;
+    }
+
+    .list a {
+        font-weight: 100 !important;
+    }
+
+
+    .log {
+        position: relative;
+        top: -5rem !important;
+        left: -8rem !important;
+    }
+
+    .picx {
+        position: absolute !important;
+        right: 38vw !important;
+        margin-top: 1rem !important;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 1024px) {
+    .boxing {
+        margin: 1rem auto 2rem auto !important;
+        display: flex !important;
+        width: 90vw !important;
+        height: 300px !important;
+        position: inherit !important;
+    }
+
+
+    .hero {
+        margin: 1rem auto 2rem auto !important;
+        display: flex !important;
+        height: 300px !important;
+        position: inherit !important;
+    }
+
+    .boxing {
+        display: none !important;
+    }
+
+    .boxing.active {
+        display: flex !important;
+        margin: auto !important;
+    }
+
+    .container2-btn {
+        position: relative !important;
+    }
+
+    .container1-hero,
+    .container2-hero-main {
+        padding-left: 2rem !important;
+        width: 100vw !important;
+    }
+
+    .hero {
+        width: 100vw !important;
+    }
+
+    .container2-hero img,
+    .img-second {
+        width: 19rem !important;
+    }
+
+    .container1-hero h2 {
+        width: 20rem !important;
+        font-size: 35px !important;
+    }
+
+    .shape {
+        width: 35vw !important;
+        height: 13rem !important;
+        left: 60vw !important;
+        top: 10rem !important;
+    }
+
+    .sphere {
+        width: 38vw !important;
+        height: 13rem !important;
+        left: -4vw !important;
+        top: 2rem !important;
+    }
+
+    .field {
+        margin: 5rem auto !important;
+        width: 90vw !important;
+    }
+
+
+    .field h3 {
+        font-size: 30px !important;
+    }
+
+
+
+    .cards {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        margin: 1rem auto !important;
+    }
+
+    .info {
+        margin: 2rem auto !important;
+        left: 37vw !important;
+    }
+
+    .FAQ {
+        max-width: 80vw !important;
+    }
+
+    .FAQ-container h3 {
+        font-size: 18px !important;
+    }
+
+    .email_container {
+        height: 20rem !important;
+    }
+
+    .email_container h3 {
+        font-size: 25px !important;
+        width: 20rem !important;
+        margin: auto !important;
+    }
+
+    form input {
+        width: 18rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .log {
+        position: relative !important;
+        top: -25px !important;
+        left: -15rem !important;
+    }
+
 }

@@ -1,3 +1,18 @@
+//navigation
+
+let burger = document.querySelector(".icon1");
+let menu = document.querySelector(".menu");
+burger.addEventListener("click", function(){
+    menu.classList.toggle("active")
+})
+
+
+// i want svg3 to show and svg1 to be hidden
+// i want to change the icon to X
+// background of nav should change to hsl(229, 31%, 21%)
+
+
+//faqs
 const faqPage = document.querySelectorAll(".FAQ-container .faq-page");
 faqPage.forEach((page, i) => {
     page.addEventListener("click", () => {
@@ -24,3 +39,4 @@ headings.addEventListener('click', function(e){
     })
     }
 })
+
