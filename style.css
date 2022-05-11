@@ -506,6 +506,7 @@ input::placeholder {
         width: 100%;
     }
 
+    
     .pic {
         display: inline-flex;
         margin-top: 50vh;
@@ -605,7 +606,7 @@ input::placeholder {
     .hero {
         display: block !important;
         margin: auto !important;
-        height: 80vh !important;
+        height: 100vh;
     }
 
     .container2-hero {
@@ -616,16 +617,16 @@ input::placeholder {
     .container1-hero,
     .container2-hero-main {
         font-size: 15px !important;
-        position: relative !important;
+        position: relative;
     }
 
     .container1-hero {
-        top: 20rem !important;
-        width: 90vw !important;
-        margin: auto !important;
+        top: 20rem;
+        width: 90vw;
         align-items: center !important;
         justify-content: center !important;
         text-align: center !important;
+        padding-top: 3rem;
     }
 
     .container2-hero img {
