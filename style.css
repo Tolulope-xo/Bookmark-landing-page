@@ -435,6 +435,10 @@ input::placeholder {
 .Footer {
     background-color: hsl(229, 31%, 21%);
     height: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .navbar {
@@ -447,53 +451,18 @@ input::placeholder {
 }
 
 .list {
+    display: flex;
+    margin-left: 10rem;
+}
+
+.Footer a {
     color: white;
-    align-items: center;
-}
-
-.navbar ul {
-    padding-top: 1rem;
-
-}
-
-.list a {
-    color: white;
-
-}
-
-.log {
-    position: relative;
-    top: -25px;
-    left: -30rem;
-}
-
-.log p {
-    display: inline-flex;
-    color: white;
-    width: 7rem;
-    height: 1.5rem;
-    background-color: hsl(229, 31%, 21%);
-    position: absolute;
-    left: 9rem;
-    top: 1rem;
-    font-size: 17px;
-}
-
-.log svg {
-    position: absolute;
-    left: 7rem;
-    top: 1rem;
 }
 
 .picx {
     display: flex;
-    position: absolute;
-    right: 5rem;
 }
 
-.picx li {
-    margin-right: 5px;
-}
 
 @media only screen and (max-width: 420px) {
     nav {
@@ -506,7 +475,7 @@ input::placeholder {
         width: 100%;
     }
 
-    
+
     .pic {
         display: inline-flex;
         margin-top: 50vh;
@@ -606,7 +575,7 @@ input::placeholder {
     .hero {
         display: block !important;
         margin: auto !important;
-        height: 100vh;
+        height: 800px;
     }
 
     .container2-hero {
@@ -768,41 +737,30 @@ input::placeholder {
     }
 
     .Footer {
-        height: 20rem !important;
+        height: 12rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+
+    .Footer ul {
+        display: block;
     }
 
     .navbar {
-        width: 100% !important;
+        display: block;
     }
 
-    .list {
-        margin-top: 5rem !important;
-        display: block !important;
-        text-align: center !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .list li {
-        margin-bottom: 1rem !important;
-    }
-
-    .list a {
-        font-weight: 100 !important;
-    }
-
-
-    .log {
-        position: relative;
-        top: -5rem !important;
-        left: -8rem !important;
+    .Footer .list {
+        display: block;
     }
 
     .picx {
-        position: absolute !important;
-        right: 38vw !important;
-        margin-top: 1rem !important;
+        justify-content: center;
+        padding-top: 2rem;
     }
+
 }
 
 @media (min-width: 421px) and (max-width: 1024px) {
@@ -922,8 +880,8 @@ input::placeholder {
 
     .log {
         position: relative !important;
-        top: -25px !important;
-        left: -15rem !important;
+        top: -28px !important;
+        left: -16rem !important;
     }
 
 }
